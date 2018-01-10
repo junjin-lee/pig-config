@@ -1,0 +1,17 @@
+server:
+  port: 3000
+
+pig:
+  auth:
+    clientId: ENC(Ho5VxMWMMIzfIEE8/WxVzA==)
+    clientSecret: ENC(Ho5VxMWMMIzfIEE8/WxVzA==)
+    scope: server
+
+urls:
+  anon:
+    - /health
+    - /mobile/token
+
+logging:
+  config: classpath:logback.xml
+
